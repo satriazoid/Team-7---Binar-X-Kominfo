@@ -1,0 +1,16 @@
+tags:
+  - name: Sentiment Analysis using NN
+get:
+  description: Teks yang akan diproses
+parameters:
+  - name: manual_input_neural_network
+    in: formData
+    required: true
+    type: string
+responses:
+    '200':
+      description: Successful Response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
